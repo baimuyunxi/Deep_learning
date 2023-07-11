@@ -65,7 +65,9 @@ ERNIE_Chinese: http://image.nghuyong.top/ERNIE.zip
 7. cut.py：划分测试集、验证集、训练集脚本
 
 [1] 数据集文件的构成
+
 ![!\[Alt text\](image.png)](image/md/image.png)
+
 其中，class1.csv是原数据集文件，训练集train.csv、验证集dev.csv、测试集test.csv是之前拆分好的，class.txt是标签目录，label.pkl是压缩存储的标签，方便快速读取用的。
 
 [2] 加载数据集
