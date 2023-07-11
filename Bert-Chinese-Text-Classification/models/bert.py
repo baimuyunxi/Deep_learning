@@ -38,6 +38,7 @@ class Model(nn.Module):
         super(Model, self).__init__()
         self.bert = BertModel.from_pretrained(config.bert_path)
         for param in self.bert.parameters():
+            # 决定在反向传播过程中是否计算该张量的梯度
             param.requires_grad = True
         self.fc = nn.Linear(config.hidden_size, config.num_classes)
 

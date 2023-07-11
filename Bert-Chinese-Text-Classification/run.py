@@ -7,6 +7,10 @@ from importlib import import_module
 import argparse
 from utils import build_dataset, build_iterator, get_time_dif
 
+"""配置参数
+        model_name  : 模型名称. required. 可选值['bert']
+        is_write    : 是否开启tensorboard的记录绘图模式. 可选值[False, True]
+"""
 
 # 声明argparse对象 可附加说明
 parser = argparse.ArgumentParser(description='Chinese Text Classification')
@@ -19,10 +23,11 @@ parser.add_argument(
 )
 # 解析参数
 args = parser.parse_args()
+I = [False, True]
 
-
-if __name__ == '__main__':
+if __name__ == '__main__': 
     dataset = 'datas'  # 数据集路径
+    is_write = I[1]
 
     model_name = args.model  # bert 设置的模型名称
     x = import_module('models.' + model_name)  # 根据所选模型名字在models包下 获取相应模块
@@ -47,4 +52,6 @@ if __name__ == '__main__':
 
     # train
     model = x.Model(config).to(config.device)  # 构建模型对象
-    train(config, model, train_iter, dev_iter, test_iter)  # 训练
+    print(model.parameters)
+    print(f'The model has {sum(p.numel() for p in model.parameters() if p.requires_grad):,} trainable parameters')
+    train(config, model, train_iter, dev_iter, test_iter, is_write)  # 训练
