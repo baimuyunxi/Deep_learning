@@ -20,7 +20,7 @@ class Config(object):
         ]  # 类别名单
         self.save_path = dataset + '/saved_dict/' + self.model_name + '.ckpt'  # 模型训练结果
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')  # 设备
-
+        self.log_path = dataset + '/log/' + self.model_name
         self.require_improvement = 1000  # 若超过1000batch效果还没提升，则提前结束训练
         self.num_classes = len(self.class_list)  # 类别数
         self.num_epochs = 3  # epoch数
@@ -39,7 +39,7 @@ class Model(nn.Module):
         self.bert = BertModel.from_pretrained(config.bert_path)
         for param in self.bert.parameters():
             # 决定在反向传播过程中是否计算该张量的梯度
-            param.requires_grad = True
+            param.requires_grad = False
         self.fc = nn.Linear(config.hidden_size, config.num_classes)
 
     def forward(self, x):
