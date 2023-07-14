@@ -1,0 +1,10 @@
+
+Dpython:S1172",Remove the unused function parameter "seed".(±Ùê‰
+;python:S125"Remove this commented out code.(üÁÀèþÿÿÿÿ
+@python:S108&")Either remove or fill this block of code.(ã‘Û¾
+Hpython:S1481;"0Remove the unused local variable "last_improve".(Þº½‰
+Ipython:S1481:"1Remove the unused local variable "dev_best_loss".(®’¸Î
+lpython:S3776)"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(¡£ºô
+6python:S125`"Remove this commented out code.(œÌõÖ
+Kpython:S1481l".Remove the unused local variable "loss_total".(¶ÜåØüÿÿÿÿ
+Lpython:S1481ˆ".Remove the unused local variable "loss_total".(¶ÜåØüÿÿÿÿ

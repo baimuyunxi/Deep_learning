@@ -1,0 +1,22 @@
+
+Ppython:S1172+"1Remove the unused function parameter "file_path".(¿¯›×8Ñð·Ë”1
+=python:S125-"Remove this commented out code.(È£ü’8Ñð·Ë”1
+=python:S1253"Remove this commented out code.(âùž8Ñð·Ë”1
+spython:S3776T"TRefactor this function to reduce its Cognitive Complexity from 33 to the 15 allowed.(ú”œÔ8Òð·Ë”1
+kpython:S117g"MRename this parameter "C" to match the regular expression ^[_a-z][a-z0-9_]*$.(Üø¹î8Òð·Ë”1
+kpython:S117g"MRename this parameter "Y" to match the regular expression ^[_a-z][a-z0-9_]*$.(Üø¹î8Òð·Ë”1
+Dpython:S1481h"%Remove the unused local variable "j".(¿¹žÉ8Òð·Ë”1
+Dpython:S1481h"%Remove the unused local variable "i".(¿¹žÉ8Òð·Ë”1
+Kpython:S1172t",Remove the unused function parameter "path".(¤à½¤8Òð·Ë”1
+Spython:S1481z"/Remove the unused local variable "need_labels".( ´Ž²øÿÿÿÿ8Òð·Ë”1
+Bpython:S125u"Remove this commented out code.(Œª‡äüÿÿÿÿ8Òð·Ë”1
+Ppython:S1172›"0Remove the unused function parameter "ues_word".(Æ˜·8Òð·Ë”1
+tpython:S3776›"TRefactor this function to reduce its Cognitive Complexity from 81 to the 15 allowed.(Æ˜·8Òð·Ë”1
+lpython:S117«"MRename this parameter "C" to match the regular expression ^[_a-z][a-z0-9_]*$.(Üø¹î8Òð·Ë”1
+lpython:S117«"MRename this parameter "Y" to match the regular expression ^[_a-z][a-z0-9_]*$.(Üø¹î8Òð·Ë”1
+Epython:S1481¬"%Remove the unused local variable "j".(¿¹žÉ8Òð·Ë”1
+Epython:S1481¬"%Remove the unused local variable "i".(¿¹žÉ8Óð·Ë”1
+>python:S125ù"Remove this commented out code.(—øêˆ8Óð·Ë”1
+Cpython:S125¥"Remove this commented out code.(ªÅõ´ùÿÿÿÿ8Óð·Ë”1
+Kpython:S5806ê"+Rename this variable; it shadows a builtin.(ßÚ’É8Óð·Ë”1
+Kpython:S5806 "+Rename this variable; it shadows a builtin.(Ì›Òþ8Óð·Ë”1

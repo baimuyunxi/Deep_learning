@@ -1,0 +1,12 @@
+
+;python:S125A"Remove this commented out code.(×Êë—ûÿÿÿÿ
+6python:S125J"Remove this commented out code.(Š‘İ
+‰python:S101["mRename class "Positional_Encoding" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(æİ¸êúÿÿÿÿ
+python:S101j"vRename class "Scaled_Dot_Product_Attention" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(İ ½Ş
+dpython:S117o"MRename this parameter "K" to match the regular expression ^[_a-z][a-z0-9_]*$.(¬ÿ‡
+dpython:S117o"MRename this parameter "Q" to match the regular expression ^[_a-z][a-z0-9_]*$.(¬ÿ‡
+dpython:S117o"MRename this parameter "V" to match the regular expression ^[_a-z][a-z0-9_]*$.(¬ÿ‡
+5python:S125|"Remove this commented out code.(ÿçñQ
+‹python:S101ƒ"nRename class "Multi_Head_Attention" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(ï«ñŠúÿÿÿÿ
+7python:S125™"Remove this commented out code.(‘¾¹”
+‘python:S101¦"tRename class "Position_wise_Feed_Forward" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(®Á…Çùÿÿÿÿ

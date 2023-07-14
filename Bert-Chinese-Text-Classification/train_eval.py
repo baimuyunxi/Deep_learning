@@ -31,19 +31,20 @@ def init_network(model, method='xavier', exclude='embedding', seed=123):
             elif 'bias' in name:
                 nn.init.constant_(w, 0)
 
+
 # 计算多标签准确率、精确率、hm
 def APH(y_true, y_pred):
     return (
         metrics.accuracy_score(y_true, y_pred),
         metrics.precision_score(y_true, y_pred, average='samples'),
         metrics.hamming_loss(y_true, y_pred),
-        metrics.precision_recall_fscore_support(y_true, y_pred),
+        # metrics.precision_recall_fscore_support(y_true, y_pred),
     )
 
 
 # 预测多标签的输出，把概率值转化为独热数组
 def Predict(outputs, alpha=0.4):
-    predic = torch.sigmoid(outputs)
+    predic = torch.relu(outputs)
     zero = torch.zeros_like(predic)
     topk = torch.topk(predic, k=2, dim=1, largest=True)[1]
     for i, x in enumerate(topk):
@@ -51,6 +52,7 @@ def Predict(outputs, alpha=0.4):
             if predic[i][y] > alpha:
                 zero[i][y] = 1
     return zero.cpu()
+
 
 def train(config, model, train_iter, dev_iter, test_iter, is_write):
     logger.log()
@@ -106,12 +108,19 @@ def train(config, model, train_iter, dev_iter, test_iter, is_write):
             )
         )
     for epoch in range(config.num_epochs):
-        print(f'Epoch [{epoch + 1}/{config.num_epochs}]')
+        print('Epoch [{}/{}]'.format(epoch + 1, config.num_epochs))
 
         for i, (trains, labels) in enumerate(train_iter):
             outputs = model(trains)
             model.zero_grad()
-            loss = Loss(outputs, labels)
+            # print('---------train----------')
+            # print('裁剪前:', outputs.shape, '<----->', labels.shape)
+            # 对输出张量进行裁剪
+            labels = labels[:, : outputs.shape[1]]
+            # print('裁剪后:', outputs.shape, '<----->', labels.shape)
+            # print('type:', type(outputs), '<----->', type(labels))
+            # 计算损失 (输入，目标）
+            loss = Loss(outputs, labels.float())
             loss.backward()
             optimizer.step()
             if total_batch % 100 == 0:
@@ -119,9 +128,7 @@ def train(config, model, train_iter, dev_iter, test_iter, is_write):
                 true = labels
                 predic = Predict(outputs)
                 # train_oe = OneError(outputs, true)
-                train_acc, train_pre, train_hl = APH(
-                    true.data.cpu().numpy(), predic.data.cpu().numpy()
-                )
+                train_acc, train_pre, train_hl = APH(true.data.cpu().numpy(), predic.data.cpu().numpy())
 
                 dev_acc, dev_pre, dev_hl, dev_loss = evaluate(config, model, dev_iter)
                 if dev_loss < dev_best_loss:
@@ -134,7 +141,7 @@ def train(config, model, train_iter, dev_iter, test_iter, is_write):
                 time_dif = get_time_dif(start_time)
                 msg = (
                     'Iter: {0:>6}, Train=== Loss: {1:>6.2}, Acc: {2:>6.2%}, Pre: {3:>6.2%}, HL: {4:>5.2}, Val=== Loss: {5:>5.2}, Acc: {6:>6.2%}, Pre: {7:>6.2%}, HL: {8:>5.2}, '
-                    'Time: {9} {10} '
+                    'OE: Null, Time: {9} {10} '
                 )
                 print(
                     msg.format(
@@ -184,13 +191,13 @@ def test(config, model, test_iter):
     model.load_state_dict(torch.load(config.save_path))
     model.eval()
     start_time = time.time()
-    test_acc, test_pre, test_rec, test_hl, test_loss, test_report = evaluate(
+    test_acc, test_pre, test_rec, test_hl, test_loss = evaluate(
         config, model, test_iter, test=True
     )
     msg = 'Test Loss: {0:>5.2},  Test Acc: {1:>6.2%}, Test Pre: {2:>6.2%}, Test HL: {3:>5.2}, Test OE: {4:>6.2%}'
     print(msg.format(test_loss, test_acc, test_pre, test_rec, test_hl))
     print("Precision, Recall and F1-Score...")
-    print(test_report)
+    # print(test_report)
     time_dif = get_time_dif(start_time)
     print("Time usage:", time_dif)
     return test_loss, test_acc, test_pre, test_rec, test_hl
@@ -205,7 +212,13 @@ def evaluate(config, model, data_iter, test=False):
         for texts, labels in data_iter:
             outputs = model(texts)
             # oe = OneError(outputs.data.cpu(), labels.data.cpu())
-            loss = Loss(outputs, labels)
+            # print('---------evaluate----------')
+            # print('裁剪前:', outputs.shape, '<----->', labels.shape)
+            # 对输出张量进行裁剪
+            labels = labels[:, : outputs.shape[1]]
+            # print('裁剪后:', outputs.shape, '<----->', labels.shape)
+            # print('type:', type(outputs), '<----->', type(labels))
+            loss = Loss(outputs, labels.float())
             loss_total += loss
             labels = labels.data.cpu().numpy()
             predic = Predict(outputs.data)
