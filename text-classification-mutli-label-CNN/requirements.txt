@@ -1,0 +1,5 @@
+numpy~=1.19.5
+scikit-learn~=0.23.1
+jieba~=0.39
+tensorflow==1.15.2
+fasttext~=0.9.2
