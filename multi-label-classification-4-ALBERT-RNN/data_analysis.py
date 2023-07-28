@@ -6,7 +6,7 @@
 from collections import defaultdict
 from pprint import pprint
 
-with open("./datas/data.txt", "r", encoding="utf-8") as f:
+with open("./data/data_train.txt", "r", encoding="utf-8") as f:
     content = [_.strip() for _ in f.readlines()]
 
 # 每个事件类型的数量统计
