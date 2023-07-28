@@ -1,4 +1,4 @@
-### ALBERT+CNN 多标签文本分类 
+### ALBERT+RNN 多标签文本分类 
 
 #### 运行环境
 Python 3.7
