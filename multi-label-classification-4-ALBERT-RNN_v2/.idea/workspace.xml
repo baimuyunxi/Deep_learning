@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BlackConnectSettings" triggerOnEachSave="true" triggerOnReformat="true" />
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3adddda8-2fb4-45bd-ade0-da93c5ee4096" name="Default Changelist" comment="docs: update README.md, 新增模型评估的F1值。" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Stub" />
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>小女孩皮胡爸妈前一天吵架,说了重话.皮胡爸爸第二天一早出去工作,而皮胡妈妈气不过,</find>
+      <find>一代宗师</find>
+      <find>谁先爱上他的</find>
+      <find>志明与春娇</find>
+      <find>海街日记</find>
+      <find>和莎莫的500天</find>
+      <find>阳光灿烂的日子</find>
+      <find>菊次郎的夏天</find>
+      <find>刺客聂隐娘</find>
+      <find>牛奶是什么？在过去几百年中，奶牛走过了怎样的历程</find>
+      <find>寄生虫</find>
+      <find>两个情同姐妹的女中学生毕业后各奔前程：富家女独居别墅，贫家</find>
+    </findStrings>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/model_train.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://E:/anaconda3/envs/py37/Lib/site-packages/keras/engine/training.py" root0="SKIP_INSPECTION" />
+    <setting file="file://E:/anaconda3/envs/py37/Lib/site-packages/tensorflow_core/python/keras/losses.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="1m5MR9eIdPsPx9KglgaeROR095Q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Yunxi/Downloads/multi-label-classification-4-ALBERT-RNN",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings>
+        <option name="useSoftWraps" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Yunxi\Downloads\multi-label-classification-4-ALBERT-RNN" />
+      <recent name="D:\Yunxi\Downloads\multi-label-classification-4-ALBERT-RNN\albert_zh\albert_tiny" />
+      <recent name="D:\Yunxi\Downloads\multi-label-classification-4-ALBERT-RNN\albert_zh" />
+      <recent name="D:\Yunxi\Downloads\multi-label-classification-4-ALBERT-RNN\data\rinse4_5" />
+      <recent name="D:\Yunxi\Downloads\multi-label-classification-4-ALBERT-RNN\data\rinse" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Yunxi\Downloads\multi-label-classification-4-ALBERT-RNN\image\cnn+rgu" />
+      <recent name="D:\Yunxi\Downloads\multi-label-classification-4-ALBERT-RNN\model\rinse\cnn_rgu" />
+      <recent name="D:\Yunxi\Downloads\multi-label-classification-4-ALBERT-RNN\model" />
+      <recent name="D:\Yunxi\Downloads\multi-label-classification-4-ALBERT-RNN\model\cnn+rgu" />
+      <recent name="D:\Yunxi\Downloads\multi-label-classification-4-ALBERT-RNN\model\lstm" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.model_evaluate">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="multi-label-classification-for-color-animal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="extract_feature" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="multi-label-classification-for-color-animal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/albert_zh" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/albert_zh/extract_feature.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="graph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="multi-label-classification-for-color-animal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/albert_zh" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/albert_zh/graph.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model_evaluate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="multi-label-classification-for-color-animal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_evaluate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model_predict" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="multi-label-classification-for-color-animal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_predict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="multi-label-classification-for-color-animal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.model_evaluate" />
+        <item itemvalue="Python.model_train" />
+        <item itemvalue="Python.graph" />
+        <item itemvalue="Python.extract_feature" />
+        <item itemvalue="Python.model_predict" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3adddda8-2fb4-45bd-ade0-da93c5ee4096" name="Default Changelist" comment="" />
+      <created>1585897225214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585897225214</updated>
+      <workItem from="1689240764214" duration="1404000" />
+      <workItem from="1689242188896" duration="516000" />
+      <workItem from="1689259577542" duration="4070000" />
+      <workItem from="1689295105399" duration="13466000" />
+      <workItem from="1689554792145" duration="251000" />
+      <workItem from="1689555297139" duration="305000" />
+      <workItem from="1689555767204" duration="10636000" />
+      <workItem from="1689594825500" duration="159000" />
+      <workItem from="1689815488892" duration="663000" />
+      <workItem from="1689816617525" duration="127000" />
+      <workItem from="1689836728567" duration="103000" />
+      <workItem from="1689836919019" duration="1219000" />
+      <workItem from="1689900648390" duration="670000" />
+      <workItem from="1689922952884" duration="336000" />
+      <workItem from="1689925317318" duration="7459000" />
+      <workItem from="1690084130290" duration="54000" />
+      <workItem from="1690084648280" duration="213000" />
+      <workItem from="1690084878472" duration="289000" />
+      <workItem from="1690085785246" duration="238000" />
+      <workItem from="1690089427387" duration="18000" />
+      <workItem from="1690274810461" duration="2361000" />
+      <workItem from="1690283778163" duration="642000" />
+      <workItem from="1690286846468" duration="1646000" />
+      <workItem from="1690288873541" duration="2458000" />
+      <workItem from="1690331711689" duration="4190000" />
+      <workItem from="1690340142940" duration="3086000" />
+      <workItem from="1690359718074" duration="214000" />
+      <workItem from="1690359956123" duration="824000" />
+      <workItem from="1690383129963" duration="22000" />
+      <workItem from="1690417900671" duration="23387000" />
+      <workItem from="1690448557977" duration="190000" />
+      <workItem from="1690448767482" duration="237000" />
+      <workItem from="1690449156406" duration="65000" />
+      <workItem from="1690460960572" duration="6454000" />
+      <workItem from="1690511311460" duration="8568000" />
+      <workItem from="1690526294885" duration="8282000" />
+      <workItem from="1690536112962" duration="860000" />
+      <workItem from="1690537033890" duration="2068000" />
+      <workItem from="1690710500479" duration="35000" />
+      <workItem from="1690711244677" duration="17000" />
+      <workItem from="1690763627739" duration="913000" />
+      <workItem from="1690764557700" duration="1438000" />
+      <workItem from="1690766013638" duration="1701000" />
+      <workItem from="1690768878804" duration="1319000" />
+      <workItem from="1690770284398" duration="11611000" />
+      <workItem from="1690792153396" duration="4739000" />
+      <workItem from="1690850759848" duration="40000" />
+      <workItem from="1690850904809" duration="317000" />
+      <workItem from="1690851234146" duration="1192000" />
+      <workItem from="1690852444812" duration="2220000" />
+      <workItem from="1690854700151" duration="18565000" />
+      <workItem from="1690896497151" duration="85000" />
+      <workItem from="1690896733568" duration="1142000" />
+      <workItem from="1690936393967" duration="10457000" />
+    </task>
+    <task id="LOCAL-00001" summary="功能优化：新增模型评估采用，采用hamming loss对多标签分类进行评估。">
+      <created>1608780322969</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608780322969</updated>
+    </task>
+    <task id="LOCAL-00002" summary="docs: update README.md">
+      <created>1608780498871</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608780498871</updated>
+    </task>
+    <task id="LOCAL-00003" summary="功能优化：修改model_evaluate.py脚本代码，使模型评估更加合理。">
+      <created>1608781097705</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608781097705</updated>
+    </task>
+    <task id="LOCAL-00004" summary="docs: update README.md, 新增模型评估的F1值。">
+      <created>1609046780881</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609046780881</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="功能优化：新增模型评估采用，采用hamming loss对多标签分类进行评估。" />
+    <MESSAGE value="docs: update README.md" />
+    <MESSAGE value="功能优化：修改model_evaluate.py脚本代码，使模型评估更加合理。" />
+    <MESSAGE value="docs: update README.md, 新增模型评估的F1值。" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: update README.md, 新增模型评估的F1值。" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/multi_label_classification_4_event_type_master$model_evaluate.coverage" NAME="model_evaluate 覆盖结果" MODIFIED="1689318077965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multi_label_classification_4_ALBERT_RNN$model_predict.coverage" NAME="model_predict 覆盖结果" MODIFIED="1690515581952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multi_label_classification_4_ALBERT_CNN$model_train.coverage" NAME="model_train 覆盖结果" MODIFIED="1690444871207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multi_label_classification_4_ALBERT_CNN$model_predict.coverage" NAME="model_predict 覆盖结果" MODIFIED="1690446666655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multi_label_classification_4_event_type_master$model_predict.coverage" NAME="model_predict 覆盖结果" MODIFIED="1689318124308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multi_label_classification_4_event_type_master$model_train.coverage" NAME="model_train 覆盖结果" MODIFIED="1689304891354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multi_label_classification_4_ALBERT_RNN$model_train.coverage" NAME="model_train 覆盖结果" MODIFIED="1690936577374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multi_label_classification_4_ALBERT_CNN$model_evaluate.coverage" NAME="model_evaluate 覆盖结果" MODIFIED="1690446650341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multi_label_classification_4_ALBERT_RNN$model_evaluate.coverage" NAME="model_evaluate 覆盖结果" MODIFIED="1690947439421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
